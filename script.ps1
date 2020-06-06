@@ -4,7 +4,7 @@ write-host "*- location: $l";
 write-host "*- extensions: $e";
 write-host "*- exclude: $x";
 write-host "*- destination: $d";
-# .\script.ps1 -l 'C:\Users\Amr\Downloads\shell-test' -e 'js ts' -x 'C:\Users\Amr\Downloads\shell-test\target\tmp /rrrrr' -d 'C:\Users\Amr\Downloads\shell-test\store'
+
 
 $arr_excludes = $x.split(" ")
 $arr_extensions = $e.split(" ")
