@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# bash script.sh -l '/home/amr/Desktop/shell-test' -e 'js' -x '/home/amr/Desktop/shell-test/target/tmp /rrrrr' -d '/home/amr/Desktop/shell-test/store'
+
 while getopts ":l:e:x:d:" flag
 do
     case "${flag}" in
