@@ -7,14 +7,14 @@ This project contain two scripts
 - `script.ps1` this working only with windows systems
 
 ## How it Works
----------------
+
 
 ### 1- Linux script
 ```sh
 bash script.sh -l '/home/amr/Desktop/songs' -e 'mp3 wav' -x '/home/amr/Desktop/songs/Untagged /home/amr/Desktop/songs/Unrated' -d '/home/amr/Downloads/music'
 ```
 
-### 1- Windows script
+### 2- Windows script
 ```ps1
 .\script.ps1 -l 'C:\Users\Amr\Desktop\songs' -e 'mp3 wav' -x 'C:\Users\Amr\Desktop\songs\Untagged C:\Users\Amr\Desktop\songs\Unrated' -d 'C:\Users\Amr\Downloads\music'
 ```
